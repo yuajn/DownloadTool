@@ -22,7 +22,7 @@ DownloadTool::DownloadTool(QWidget *parent)
       breakpoint_received_(0),
       finished_(true) {
   ui->setupUi(this);
-
+  qOut;
   QIcon icon(":/image/download.png");
   setWindowIcon(icon);
 
